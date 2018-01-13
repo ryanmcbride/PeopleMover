@@ -721,6 +721,10 @@ Prefab:
       propertyPath: m_Name
       value: GenericPopup
       objectReference: {fileID: 0}
+    - target: {fileID: 1127986806508358, guid: 02c1aff0a88b44d9a8bee67d5b61a8af, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02c1aff0a88b44d9a8bee67d5b61a8af, type: 2}
   m_IsPrefabParent: 0
