@@ -622,11 +622,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 832314877}
     m_Modifications:
-    - target: {fileID: 114384918315722980, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 224037768301761444, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -717,38 +712,14 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1127986806508358, guid: 02c1aff0a88b44d9a8bee67d5b61a8af, type: 2}
-      propertyPath: m_Name
-      value: GenericPopup
-      objectReference: {fileID: 0}
-    - target: {fileID: 1127986806508358, guid: 02c1aff0a88b44d9a8bee67d5b61a8af, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114384918315722980, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114384918315722980, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 114384918315722980, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1855427668}
-    - target: {fileID: 114384918315722980, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: DetachChildren
-      objectReference: {fileID: 0}
-    - target: {fileID: 114384918315722980, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 832314880}
+    - target: {fileID: 1127986806508358, guid: 02c1aff0a88b44d9a8bee67d5b61a8af, type: 2}
+      propertyPath: m_Name
+      value: GenericPopup
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02c1aff0a88b44d9a8bee67d5b61a8af, type: 2}
@@ -3895,11 +3866,6 @@ CanvasRenderer:
 --- !u!1 &1855427667 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1687661459832638, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
-    type: 2}
-  m_PrefabInternal: {fileID: 452158818}
---- !u!224 &1855427668 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 224493783758853652, guid: 02c1aff0a88b44d9a8bee67d5b61a8af,
     type: 2}
   m_PrefabInternal: {fileID: 452158818}
 --- !u!1 &1924268703

@@ -61,4 +61,9 @@ public class SceneController : MonoBehaviour {
 		GameObject menu = Instantiate (Resources.Load ("Menus/HelpMenu")) as GameObject;
 		menu.transform.SetParent (genericPopupBody.transform, false);
 	}
+	public void PopupBack() {
+		foreach (Transform child in genericPopupBody.transform) {
+			Destroy(child.gameObject);
+		}
+	}
 }
